@@ -5,7 +5,11 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+h4 {
+font-size: 15px;
+line-height: 10px;
 
+}
 
 #wrapper {
     padding-left: 0;
@@ -14,7 +18,7 @@ body {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 	position: relative;
-	top: 190px;
+	top: 181px;
 	min-width: 1020px !important;
 }
 
@@ -35,7 +39,7 @@ body {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-	  top: 200px;
+	  top: 181px;
 	  
 }
 
@@ -144,7 +148,7 @@ width: 40px;
 }
 
 .line2 {
-height: 80px;
+height: 60px;
 background: #fff;
 border-bottom: 1px solid #eee;
     position: fixed;
@@ -152,21 +156,21 @@ border-bottom: 1px solid #eee;
 	margin: 0 auto;
 	top: 60px;
 	z-index: 1;
-		min-width: 1020px !important;
+    min-width: 1020px !important;
 }
 
 .title {
-padding: 17px 0 0 40px;
+padding: 15px 0 0 40px;
 font-weight: 400;
-font-size: 28px;
+font-size: 22px;
 float: left; 
 color: #666;
 }
 
 .lnk {
-padding: 30px 0 0 50px;
+padding: 20px 0 0 50px;
 float: left;
-font-weight: 500;
+font-weight: 400;
 font-size: 16px;
 }
 
@@ -176,7 +180,7 @@ color: #333;
 }
 
 .add {
-padding: 30px ;
+padding: 20px ;
 float: right;
 border-left: 1px solid #eee;
 color: #999;
@@ -188,17 +192,17 @@ cursor: pointer;
 }
 
 .line3 {
-height: 61px;
+height: 60px;
 border-bottom: 1px solid #eee;
   position: fixed;
 	width: 100%;
 	margin: 0 auto;
 	z-index: 1;
-	top: 140px;
+	top: 120px;
 	background: #fff;
 	left: 300px;
 	right: 0;
-		min-width: 1020px !important;
+    min-width: 1020px !important;
 }
 .line4 {
 height: 60px;
@@ -207,7 +211,7 @@ border-bottom: 1px solid #eee;
 	width: 300px;
 	margin: 0 auto;
 	z-index: 1;
-	top: 140px;
+	top: 120px;
 	background: #fff;
 }
 .title1 {
@@ -239,8 +243,8 @@ text-decoration: none;
 
 .number {
 color: #999;
-font-size: 22px;
-padding-top: 10px;
+font-size: 15px;
+padding-top: 7px;
 }
 
 .col1 {
@@ -262,7 +266,7 @@ font-size: 13px;
 }
 
 .pad {
-padding: 10px 30px 10px 30px;
+padding: 5px 30px 5px 30px;
 }
 
 .bb {
@@ -327,4 +331,4 @@ color: #7B828B;
   opacity: 0;
   cursor: pointer;
 }
-]
+
