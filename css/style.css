@@ -8,7 +8,7 @@ body {
 h4 {
 font-size: 15px;
 line-height: 10px;
-
+color: #A6ACB2;
 }
 
 #wrapper {
@@ -257,7 +257,7 @@ text-decoration: none;
 }
 
 .number {
-color: #999;
+color: #52555A;
 font-size: 15px;
 padding-top: 7px;
 }
@@ -282,9 +282,12 @@ font-size: 20px;
 .col5 {
 color: #ACB4BF;
 font-size: 20px;
+}
+.col6 {
+color: transparent;
+font-size: 20px;
 
 }
-
 .meta {
 color: #999;
 font-size: 13px;
@@ -297,7 +300,11 @@ padding: 5px 30px 5px 30px;
 width: 15px;
 padding: 10px 30px 5px 30px;
 }
-
+.pad2 {
+width: 15px;
+padding: 10px 30px 5px 30px;
+float: right;
+}
 .bb {
 background: #FAFAFA;
 }
@@ -425,4 +432,7 @@ color: #7B828B;
   height: 60px;
   opacity: 0;
   cursor: pointer;
+}
+.dis a {
+color: #ddd;
 }
