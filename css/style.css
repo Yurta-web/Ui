@@ -199,7 +199,7 @@ float: right;
 border-left: 1px solid #eee;
 color: #999;
 }
-.add:hover {
+.add.active {
 background: #055FCE;
 color: #fff;
 cursor: pointer;
