@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=1024' name='viewport'>
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Dez</title>
+      <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="http://jamesflorentino.github.io/nanoScrollerJS/css/nanoscroller.css">
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="line1">
+         <div class="icon-block">
+            <i class="fa fa-dribbble icon"></i>
+         </div>
+   <div class="b1">
+            <a href="#"><i class="fa fa-briefcase"></i> Компании</a>
+         </div>
+         <div class="b1">
+            <a class="active" href="#"><i class="fa fa-building"></i> Опросы</a>
+         </div>
+		       <div class="b1">
+            <a href="#"><i class="fa fa-envelope"></i> Шаблоны</a>
+         </div>
+		       <div class="b1 ">
+            <a href="#"><i class="fa fa-users"></i> Респонденты</a>
+         </div>
+         <div class="b2 ">
+            <img class="img-circle" src="http://api.randomuser.me/portraits/med/men/15.jpg">
+         </div>
+      </div>
+      <!-- /#line1 -->
+      <div class="line2">
+         <div class="title">Образовательный опрос</div>
+        
+         <div class="add active">
+            <i class="fa fa-plus-circle"></i> Добавить опрос
+         </div>
+         <div class="add ">
+            <i class="fa fa-ellipsis-h"></i>
+         </div>
+		 
+		 
+		          <div class="add">
+				  <div class="dropdown">
+  <button class=" btn-filter dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+  <i class="fa fa-circle active-col2"></i>  Активный 
+    <span class="caret"></span>
+  </button>
+  <ul style=" z-index: 1;" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <i class="fa fa-circle active-col1"></i>  отключен</a></li>
+
+  </ul>
+</div>
+</div>
+		 
+		 
+		 
+      </div>
+	     
+      <div id="wrapper">
+         <!-- Sidebar -->
+         <div id="sidebar-wrapper" class="nano">
+		 
+		          <div class="line4">
+			<form class="search"><input class="searchButton" type="submit" /><input class="searchTerm" placeholder="Поиск компаний" /></form>
+
+		      </div>
+		 
+		 <div class="nano-content">
+		 
+            <div class="list-group">
+               <a href="#" class="list-group-item ">Зачем вам это надо? <span class="badge">01</span></a>
+               <a href="#" class="list-group-item">Зачем вам это надо? <span class="badge">02</span></a>
+               <a href="#" class="list-group-item active">Зачем вам это надо? <span class="badge">03</span></a>
+               <a href="#" class="list-group-item">Зачем вам это надо? <span class="badge">04</span></a>
+               <a href="#" class="list-group-item">Зачем вам это надо? <span class="badge">05</span></a>
+			   
+            </div>
+         </div>
+		 </div>
+         <!-- /#sidebar-wrapper -->
+         <!-- Page Content -->
+         <div id="page-content-wrapper" >
+         <div class="line3">
+
+               <div class="title2">
+			   
+			   <a href="#"><i class="fa fa-long-arrow-left"></i> </a>  <a class="del" href="#">Следующий вопрос  <i class="fa fa-long-arrow-right"></i></a>
+			  
+			   
+			   </div>
+			 
+                <div class="edit">
+                  <a href=""><i class="fa fa-pencil ic"></i> Редактировать</a> <a class="del" href=""><i class="fa fa-minus-circle ic"></i> Удалить</a>
+               </div>
+            </div>
+            <div class="container-fluid pad">
+               <div class="row">
+			   
+			   <div class="col-xs-1">
+			   <h3 class="nm">03</h3>
+			   </div>
+			   
+			      <div class="col-xs-10">
+				  <h2 class="qu">Зачем вам это надо?</h2>
+				  <div class="poll">
+				  
+				  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+	
+  </div>
+  				  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+	
+  </div>
+  				  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+	
+  </div>
+				  
+	  </div>			  
+				  
+			   </div>
+			   
+			   
+			   </div>
+			   
+			   
+            </div>
+         </div>
+         <!-- /#page-content-wrapper -->
+      </div>
+      <!-- /#wrapper -->
+      <!-- jQuery Version 1.11.0 -->
+      <script src="js/jquery-1.11.0.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+	  	        <script src="http://jamesflorentino.github.io/nanoScrollerJS/javascripts/jquery.nanoscroller.js"></script>
+
+	        <script>
+			
+			$(".nano").nanoScroller({ preventPageScrolling: true });
+
+</script>
+   </body>
+</html>
