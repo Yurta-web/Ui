@@ -4,6 +4,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	  color: #444;
 }
 h4 {
 font-size: 15px;
@@ -25,6 +26,10 @@ color: #A6ACB2;
 #wrapper.toggled {
     padding-left: 0px;
 }
+#wrapper.notop {
+top: 121px;
+}
+
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -206,6 +211,11 @@ color: #999;
 .add.active {
 background: #055FCE;
 color: #fff;
+cursor: pointer;
+}
+.add.dis {
+background: #E0E7F0;
+color: #444;
 cursor: pointer;
 }
 
@@ -484,4 +494,45 @@ margin-bottom: 25px;
 padding: 17px 0 0 20px;
 float: left;
 
+}
+.mockup {
+margin-bottom: 35px;
+}
+
+.mockup img:hover {
+filter: alpha(opacity=35);
+  opacity: .35;
+  cursor: pointer;
+}
+
+.table > thead > tr > th {
+padding: 20px 0 20px 30px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.table > tbody > tr > td {
+padding: 20px 0 20px 30px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+width: 140px;
+}
+
+.ignore {
+
+color: #ACB4BF;
+}
+
+.table-striped{
+font-weight: 400;
 }
