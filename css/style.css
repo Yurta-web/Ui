@@ -48,12 +48,18 @@ top: 121px;
 	  
 }
 
+
+#sidebar-wrapper.notop {
+top: 120px;
+}
+
+
 #wrapper.toggled #sidebar-wrapper {
     width: 300px;
 }
 
 #page-content-wrapper {
-    width: 100%;
+    width: 100% !important;
 	overflow-y: auto;
 }
 
@@ -338,6 +344,9 @@ width: 15px;
 padding: 10px 30px 5px 30px;
 float: right;
 }
+.pad5 {
+padding: 0px 0px 30px 90px;
+}
 .bb {
 background: #FAFAFA;
 }
@@ -481,6 +490,7 @@ padding: 35px 75px ;
 }
 .nm {
 color: #848C95;
+
 }
 .poll {
 margin-top: 45px;
@@ -535,4 +545,14 @@ color: #ACB4BF;
 
 .table-striped{
 font-weight: 400;
+}
+.control-label {
+font-weight: 400;
+color: #848C95;
+}
+.m0 {
+margin-top: 7px;
+}
+.met {
+font-size: 11px;
 }
