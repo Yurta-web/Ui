@@ -556,3 +556,14 @@ margin-top: 7px;
 .met {
 font-size: 11px;
 }
+
+.edit-peopl {
+color: #A1A7AF;
+}
+
+.edit-peopl:hover{
+text-decoration: none;
+}
+.chec input {
+background: #333;
+}

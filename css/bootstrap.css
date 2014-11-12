@@ -2324,6 +2324,7 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
+
 }
 input[type="file"] {
   display: block;
@@ -2421,6 +2422,7 @@ input[type="month"].input-lg {
   min-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  background: transparent;
 }
 .radio label,
 .checkbox label {
