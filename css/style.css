@@ -93,7 +93,7 @@ top: 120px;
     }
 
     #page-content-wrapper {
-	z-index: 5000;
+	z-index: 10;
     }
 
     #wrapper.toggled #page-content-wrapper {
@@ -571,4 +571,23 @@ text-decoration: none;
 }
 .chec input {
 background: #333;
+}
+
+.btn-def {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+  padding: 15px;
+}
+.btn-def:hover,
+.btn-def:focus,
+.btn-def:active,
+.btn-def.active,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #055FCE;
+  border-color: #055FCE;
+  border-radius: 0;
+    padding: 15px;
+  
 }

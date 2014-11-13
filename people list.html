@@ -3,12 +3,12 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content='width=1024' name='viewport'>
+      <meta content='width=1024' name='viewport'>
       <meta name="description" content="">
       <meta name="author" content="">
       <title>Респонденты</title>
       <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="http://jamesflorentino.github.io/nanoScrollerJS/css/nanoscroller.css">
+      <link rel="stylesheet" href="http://jamesflorentino.github.io/nanoScrollerJS/css/nanoscroller.css">
       <!-- Bootstrap Core CSS -->
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
@@ -23,17 +23,16 @@
          <div class="icon-block">
             <i class="fa fa-dribbble icon"></i>
          </div>
-      
-        <div class="b1">
+         <div class="b1">
             <a href="#"><i class="fa fa-briefcase"></i> Компании</a>
          </div>
          <div class="b1">
             <a href="#"><i class="fa fa-building"></i> Опросы</a>
          </div>
-		       <div class="b1">
+         <div class="b1">
             <a href="#"><i class="fa fa-envelope"></i> Шаблоны</a>
          </div>
-		       <div class="b1 ">
+         <div class="b1 ">
             <a class="active" href="#"><i class="fa fa-users"></i> Респонденты</a>
          </div>
          <div class="b2 ">
@@ -43,49 +42,43 @@
       <!-- /#line1 -->
       <div class="line2">
          <div class="title">Респонденты</div>
-         <div class="lnk-filter"><div class="dropdown">
-  <button class=" btn-filter dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    Списки
-    <span class="caret"></span>
-  </button>
-  <ul style=" z-index: 1;" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-  </ul>
-</div></div>
-    
+         <div class="lnk-filter">
+            <div class="dropdown">
+               <button class=" btn-filter dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+               Списки
+               <span class="caret"></span>
+               </button>
+               <ul style=" z-index: 1;" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+               </ul>
+            </div>
+         </div>
          <div class="add active">
             <i class="fa fa-plus-circle"></i> Создать список
          </div>
-     
       </div>
-	     
       <div id="wrapper" class="toggled">
-        
          <!-- Page Content -->
          <div id="page-content-wrapper" class="toggled">
-         <div class="line3 full">
-
+            <div class="line3 full">
                <div class="check">
-			  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Выбрать все
-    </label>
-  </div>
-			   
-			   </div>
+                  <div class="checkbox">
+                     <label>
+                     <input type="checkbox"> Выбрать все
+                     </label>
+                  </div>
+               </div>
                <div class="add ">
-           <i class="fa fa-sort-alpha-asc"></i>
-         </div>
-         <div class="add11 ">
-         			<form class="search-wh"><input class="searchButton-wh" type="submit" /><input class="searchTerm-wh" placeholder="Поиск респондентов" /></form>
-
-         </div>
+                  <i class="fa fa-sort-alpha-asc"></i>
+               </div>
+               <div class="add11 ">
+                  <form class="search-wh"><input class="searchButton-wh" type="submit" /><input class="searchTerm-wh" placeholder="Поиск респондентов" /></form>
+               </div>
             </div>
             <div class="container-fluid ">
-        
                <div class="row bb1">
                   <div class="col-xs-1 pad1">
                      <div class="number"> <input type="checkbox"></div>
@@ -94,25 +87,29 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Финансовый блок</a></h4>
                      <span class="meta">2 компании</span>
-               
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                    <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
                <div class="row bb">
@@ -123,28 +120,32 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Отдел рекламы</a></h4>
                      <span class="meta">1 компания</span>
-                  
                   </div>
-                <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                           <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
-             <div class="row bb1">
+               <div class="row bb1">
                   <div class="col-xs-1 pad1">
                      <div class="number"> <input type="checkbox"></div>
                      <i class="fa fa-minus col6"></i>
@@ -152,28 +153,32 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Отдел рекламы</a></h4>
                      <span class="meta">1 компания</span>
-                  
                   </div>
-                <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                             <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
-                 <div class="row bb">
+               <div class="row bb">
                   <div class="col-xs-1 pad1">
                      <div class="number"> <input type="checkbox"></div>
                      <i class="fa fa-minus col6"></i>
@@ -181,28 +186,32 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Отдел рекламы</a></h4>
                      <span class="meta">1 компания</span>
-                  
                   </div>
-                <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                           <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
-			       <div class="row bb1">
+               <div class="row bb1">
                   <div class="col-xs-1 pad1">
                      <div class="number"> <input type="checkbox"></div>
                      <i class="fa fa-minus col6"></i>
@@ -210,28 +219,32 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Отдел рекламы</a></h4>
                      <span class="meta">1 компания</span>
-                  
                   </div>
-                <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                             <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
-             <div class="row bb">
+               <div class="row bb">
                   <div class="col-xs-1 pad1">
                      <div class="number"> <input type="checkbox"></div>
                      <i class="fa fa-minus col6"></i>
@@ -239,42 +252,108 @@
                   <div class="col-xs-4 pad">
                      <h4><a href="#">Отдел рекламы</a></h4>
                      <span class="meta">1 компания</span>
-                  
                   </div>
-                <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">106 </div>
                      <span class="meta">человек</span>
-                 
                   </div>
                   <div class="col-xs-2 pad">
                      <div class="number">98%</div>
                      <span class="meta">Просмотров</span>
-                  
                   </div>
-				    <div class="col-xs-2 pad">
+                  <div class="col-xs-2 pad">
                      <div class="number">72%</div>
                      <span class="meta">ответов</span>
-                  
                   </div>
-                  <div class="col-xs-1 pad2">
-                     <i class="fa fa-ellipsis-h pull-right icn"></i>
+                          <div class="col-xs-1  pull-right ">
+                     <div class="dropdown  pad2">
+                        <button class="btn-filter dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                           <i class="fa fa-ellipsis-h "></i> 
+                        </button>
+                        <ul style=" z-index: 1;" class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                           <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="">Редактировать</a></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
          <!-- /#page-content-wrapper -->
       </div>
+	        <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h3 class="modal-title" id="myModalLabel">
+                    Точность построения карты
+                  </h3>
+               </div>
+               <div class="modal-body">
+      			  <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Фамилия</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputEmail3" value="Олежин">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Имя</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword3" value="Александр">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Отчество</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" value="Михайлович">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Должность</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword3" value="Генеральный директор">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" value="mail@mail.ru">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Телефон</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword3" value="+7 00 000 000">
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+<a class="btn btn-def" href=""><i class="fa fa-check"></i> Сохранить </a> <a class="btn btn-def" href=""><i class="fa fa-minus-circle"></i> Редактировать </a>
+    </div>
+  </div>
+  
+  
+</form>
+
+
+               </div>
+            </div>
+         </div>
+      </div>
       <!-- /#wrapper -->
       <!-- jQuery Version 1.11.0 -->
       <script src="js/jquery-1.11.0.js"></script>
       <!-- Bootstrap Core JavaScript -->
       <script src="js/bootstrap.min.js"></script>
-	  	        <script src="http://jamesflorentino.github.io/nanoScrollerJS/javascripts/jquery.nanoscroller.js"></script>
-
-	        <script>
-			
-			$(".nano").nanoScroller({ preventPageScrolling: true });
-
-</script>
+      <script src="http://jamesflorentino.github.io/nanoScrollerJS/javascripts/jquery.nanoscroller.js"></script>
+      <script>
+         $(".nano").nanoScroller({ preventPageScrolling: true });
+         
+      </script>
    </body>
 </html>
