@@ -20,7 +20,7 @@ color: #A6ACB2;
 h5 {
 font-size: 19px;
 line-height: 10px;
-color: #333;
+color: #1B1F25;
 margin-top: 5px;
 }
 
@@ -359,6 +359,9 @@ float: right;
 .pad5 {
 padding: 0px 0px 30px 90px;
 }
+.pad6 {
+padding: 30px 0px 30px 90px;
+}
 .bb {
 background: #FAFAFA;
 }
@@ -500,6 +503,14 @@ color: #E0E7F0;
 
 padding: 35px 75px ;
 }
+.pad7 {
+
+padding: 35px 0 35px 25px;
+}
+.pad8 {
+
+padding: 35px 0 35px 05px;
+}
 .nm {
 color: #848C95;
 
@@ -597,4 +608,9 @@ background: #333;
   border-radius: 0;
     padding: 15px;
   
+}
+.mt {margin-top: 35px;}
+
+.name {
+color: #848C95;
 }
