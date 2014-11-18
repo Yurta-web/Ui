@@ -955,6 +955,7 @@ img {
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+		  margin-bottom: 15px;
 }
 .img-circle {
   border-radius: 50%;

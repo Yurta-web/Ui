@@ -199,10 +199,10 @@ font-size: 25px;
 }
 
 .lnk {
-padding: 20px 0 0 50px;
+padding: 22px 0 0 20px;
 float: left;
 font-weight: 400;
-font-size: 16px;
+font-size: 14px;
 }
 
 .lnk a:hover {
